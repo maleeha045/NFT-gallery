@@ -1,0 +1,86 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    color: white;
+    background: black;
+    display: flex;
+  }
+}
+
+.main1 {
+  display: flex !important;
+  justify-content: space-between;
+  flex-direction: row;
+  /* background-color: blueviolet; */
+  margin: none;
+}
+
+.main {
+  /* display: flex; */
+
+  margin: none;
+  /* background-color: brown; */
+  /* flex-direction: row; */
+  justify-content: space-between;
+  /* align-items: center; */
+
+}
+
+.nftslist {
+  display: flex;
+  justify-content: space-between;
+  /* justify-content: center; */
+  align-items: center;
+
+
+  flex-direction: column;
+
+  /* background-color: rgb(194, 194, 235); */
+  margin: 30px;
+  padding: 6px;
+  width: 270px;
+  height: 550px;
+
+}
+
+.nftimage {
+  width: 200px;
+  height: 220px;
+  object-fit: cover;
+}
+
+.nftimage>img {
+  width: 200px;
+  height: 220px;
+  object-fit: cover;
+}
+
+.nft {
+
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  width: 250px;
+  height: 400px;
+  /* background-color: blue; */
+}
